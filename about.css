@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1;
+}
+header h1{
+    margin-right: auto;
+    color: white;
+    margin-left: 50px;
+}
+/* #22241e */
+.fir{
+    color: greenyellow;
+    
+}
+
+.sec{
+    
+    margin-left: -700px;
+    
+}
+
+nav a{
+    margin-right: 70px;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: large;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.main1{
+    background-color: #22241e;
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.div1{
+    width: 85%;
+    height:400px;
+    background-color: beige;
+    margin-top: -150px;
+    margin-left: 100px;
+    border-radius: 12px;
+    border: 2px solid #cced7c;
+}
+.div1 img{
+    height: 300px;
+    width: 97%;
+    margin-top: 27px;
+    margin-left: 18px;
+    border-radius: 13px;
+}
+.div2{
+    height: 370px;
+    width: 310px;
+    background-color: beige;
+    margin-left: 90px;
+    border-radius: 10px;
+    border: 2px solid #cced7c;
+    display: inline-block;
+}
+
+.div2 img{
+    height: 300px;
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+
+.div3{
+    display: inline-block;
+    /* background-color: brown;  */
+    margin-left: 70px;
+    position: relative;
+    top: 27px;
+    width:580px;
+    
+}
+
+.div3 p{
+    margin-bottom: 8px;
+    font-size: large;
+    color: #87986a;
+   font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div3 h1{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bfd200;
+}
+.h12{
+    margin-top: 50px; 
+    margin-left: 100px; 
+    margin-bottom: 35px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bfd200;
+}
+
+.div4{
+    display: inline-block;
+    /* background-color: aqua; */
+    width: 300px;
+    height: 300px;
+    margin-left: 110px;
+    margin-top: 50px;
+    
+}
+.div4 img{
+    width:275px;
+    height: 250px;
+    border-radius:10px;
+}
+
+.div5{
+    /* background-color: coral; */
+    display: inline-block;
+    position: relative;
+    top: -45px;
+    margin-left: 60px;
+
+}
+.div5 h1{
+    margin-bottom: 15px;
+    color: #bfd200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.div5 p{
+    margin-bottom: 37px;
+    color: #87986a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div5 input{
+    padding: 13px 120px;
+    font-size: large;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.div5 button{
+    padding: 13px 30px;
+    font-size: large;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    /* border: 2px solid #cced7c; */
+}
+
+footer{
+    background-color: #22241e;
+    padding: 70px 0px;
+    /* margin-top: -1100px; */
+    
+}
+.contain{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: greenyellow;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+/* .footer-col h4::before:hover{
+    background-color: greenyellow;
+} */
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: large;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(172, 255, 47, 0.275);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all o.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
